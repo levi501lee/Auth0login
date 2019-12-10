@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  .w3-card-4
+    h1 Welcome #{user.nickname}
+    img(src=user.picture)
+    h2 
+          <a href="https://project-2-bullpen.herokuapp.com/"><img src="https://i.imgur.com/7SkYv1B.png" style="center"></a>
+
+    //- p This is the content of <code>req.user</code>.
+    //- p Note: <code>_raw</code> and <code>_json</code> properties have been ommited.
+    //- pre
+    //-   code #{userProfile}
